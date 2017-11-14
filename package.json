@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pwa": "ng build --prod && sw-precache --root=dist --config=precache-config.js"
+    "pwa": "ng build --prod && sw-precache --root=dist --config=precache-config.js",
+    "build.prod": "ng build --aot --prod --progress false --base-href \"https://start50up.github.io\""
   },
   "private": true,
   "dependencies": {
